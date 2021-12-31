@@ -20,7 +20,7 @@ export default function Animation({ images }) {
             2000
         );
         // MAIN TEXT. EDIT THIS AND SEE DIFFERENT RESULTS.
-        let welcomeText = `We Stepped On Another Year :) Happy New Year ${
+        let welcomeText = `We Stepped On Another Year :) Happy New Year Bubu ${
             new Date().getFullYear() + 1
         }`;
         let textArray = welcomeText.split(" "); // CREATING A ARRAY OF @param welcomeText.
@@ -145,7 +145,7 @@ export default function Animation({ images }) {
                     bevelSegments: 8,
                 });
                 let geometry2 = new THREE.TextGeometry(
-                    "Made With <3 By Shuvro",
+                    "Made With <3 By Shubh",
                     {
                         font: font,
                         size: 3,
